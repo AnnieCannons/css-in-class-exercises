@@ -2,8 +2,11 @@
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
 
+h1, h2, h3, h4, h5, h6 { font-family:'Times New Roman', Times, serif 
+}
+
 h1 { 
-  color: blue;
+  color: orangered;
 }
 .red-text{
   color: red;
@@ -30,7 +33,7 @@ nav ul {
   align-items: center;
   margin-right: 2em;
 }
-.headers-section h4 { color:rgb(255, 127, 255); }
+.headers-section h4 { color:rgb(0, 0, 0); }
 
 nav ul li {
   margin-right: 4em;
@@ -40,7 +43,7 @@ nav ul li {
   font-weight: bolder;
 }
 
-#nav-home { color: red; }
+#nav-home { color: rgb(255, 255, 255); }
 
 nav img {
   width: 50px;
@@ -84,6 +87,10 @@ a {
   margin-top: 0px;
 }
 
+.welcome { 
+  color: green;
+}
+
 .text-wrapper {
   width: 50%;
 }
@@ -102,19 +109,19 @@ button {
   text-transform: uppercase;
 }
 
-.about-img-wrapper img {
-  width: 75%;
+.about-img-wrapper img { 
+  width: 100px;
   border-radius: 5px;
 }
 
 .about-img-wrapper {
-  width: 50%;
+  width: 40%;
 }
 
 .about-wrapper {
   display: flex;
-  padding: 8em 4em;
-  width: 80%;
+  padding: 5em 4em;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -123,6 +130,14 @@ button {
   border-radius: 5px;
   max-height: 200px;
   margin: 0.5rem;
+}
+
+.g-head {
+  color: purple;
+}
+
+.p-body {
+  color: brown;
 }
 
 .images-wrapper {
@@ -232,7 +247,7 @@ button {
 
 /* CERTIFICATION PROCESS */
 .certification-process-wrapper {
-  width: 30%;
+  width: 40%;
   margin: 10em auto;
   background-color: #aec7fe;
   padding: 5em;
