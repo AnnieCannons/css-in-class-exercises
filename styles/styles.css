@@ -132,12 +132,12 @@ button {
   margin: 0.5rem;
 }
 
-.g-head {
-  color: purple;
-}
-
-.p-body {
-  color: brown;
+.multicolortext {
+  background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .images-wrapper {
