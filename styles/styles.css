@@ -2,6 +2,13 @@
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
 
+h1 { 
+  color: blue;
+}
+.red-text{
+  color: red;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -23,6 +30,7 @@ nav ul {
   align-items: center;
   margin-right: 2em;
 }
+.headers-section h4 { color:rgb(255, 127, 255); }
 
 nav ul li {
   margin-right: 4em;
@@ -31,6 +39,8 @@ nav ul li {
   color: whitesmoke;
   font-weight: bolder;
 }
+
+#nav-home { color: red; }
 
 nav img {
   width: 50px;
