@@ -38,10 +38,10 @@ Sometimes your browser's Dev Tools can be a great way to try out different rules
 
 - In the Dev Tools, change the first paragraph to green—it's the one that begins with, "Welcome to the world of HTML!" Once you have that working in the Dev Tools, add a class to the paragraph in the HTML file and use CSS to make the change permanent in the CSS file.
 - In the Dev Tools, change the image in the About Our Products section to have a width of 100 pixels. Once you have that in the Dev Tools, find the line of CSS setting the width of the image and change it to make the 100-pixel width permanent. The selector being used is `.about-img-wrapper img`—you can find it using VS Code's Find command (`command-f`) and typing in that selector.
-- Use the Dev Tools to write a rule to change _all_ H1s to a different color. Once you've got working code, write that same rule in your CSS file.
-- Use the Dev Tools to change all headings (of any size!) to use the font "Times New Roman". Either do them individually, or with a "selector" list, where you separate the selectors with a comma and a space. Now make the change permanent in your CSS file—you'll definitely want to use a selector list here to save time.
-- Using the Dev Tools, make all text in the gallery section a different color. Find a class that you can use to affect the text, then add the rule to your CSS file.
-- Using the Dev Tools, make the blue box of text for the certification process section 40% of the viewport height. Find an existing class or selector that you can use to make the same change to your CSS file, then make that change permanent using CSS.
+- Use the Dev Tools to write a rule to change _all_ H1s to a different color (see directions of how to change multiple elements' styles above!). Once you've got working code, write that same rule in your CSS file.
+- Use the Dev Tools to change all headings (of any size!) to use the font "Times New Roman". Either do them individually, or with a ["selector list"](https://developer.mozilla.org/en-US/docs/Web/CSS/Selector_list), where you separate the selectors with a comma and a space. Now make the change permanent in your CSS file—you'll definitely want to use a selector list here to save time.
+- Using the Dev Tools, make all text in the gallery section a different color. Find an **already-existing** class in the HTML file that you can use to affect the text, then add the rule to your CSS file.
+- Using the Dev Tools, make the blue box of text for the certification process section 40% of the viewport height. Find an **already-existing** class in the HTML file that you can use to affect the blue box, then add the rule to your CSS file.
 
 ### Border Bonanza - Lab Time
 
@@ -52,3 +52,11 @@ Sometimes your browser's Dev Tools can be a great way to try out different rules
 5. Check out your work in the browser
 
 ![border code example](/assets/border-example.png)
+
+### Styling Text
+
+There are endless ways to style text. We'll learn a few and practice them!
+
+1. Check out [this text styling cheatsheet ](https://medium.com/swlh/css-styling-cheat-sheet-109bd78038e1) to get some ideas.
+2. Let's take a moment and style the text to our CSS In Class Exercises. You can add whatever styles you'd like.
+3. We'll come back and take volunteers to share what they did!
