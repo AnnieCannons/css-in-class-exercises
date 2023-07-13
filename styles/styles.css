@@ -27,16 +27,30 @@ nav {
 }
 
 nav ul {
-  display: flex;
   width: 100%;
-  justify-content: flex-end;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin-right: 2em;
+}
+
+.nav-list {
+  border-top-right-radius: 12%;;
+  border-bottom-right-radius: 12%;
+  border-top-left-radius: 12%;
+  border-bottom-left-radius: 12%;
+  border-bottom: 5px red;
+  border-top: 5px rgb(47, 234, 47);
+  border-left: yellow; 
+  border-right-color: pink;
+  border-style:solid;
+  border-inline-end-width: 10px;
+  border-inline-start-width: 10px;
+  ;
 }
 .headers-section h4 { color:rgb(0, 0, 0); }
 
 nav ul li {
-  margin-right: 4em;
+  width: 9em;
   list-style: none;
   text-transform: uppercase;
   color: whitesmoke;
@@ -247,12 +261,13 @@ button {
 
 /* CERTIFICATION PROCESS */
 .certification-process-wrapper {
-  width: 40%;
+  width: 30%;
   margin: 10em auto;
   background-color: #aec7fe;
   padding: 5em;
   opacity: 0.8;
   border-radius: 10px;
+  height: 40vh;
 }
 
 .certification-process-wrapper li {
