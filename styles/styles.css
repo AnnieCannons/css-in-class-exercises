@@ -2,11 +2,22 @@
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
 h1 {
-  color: blue;
+  color: purple;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.gallery-section {
+  color:aqua;
 }
 
 .red-text {
   color: red;
+}
+
+.green-text {
+  color: green;
 }
 
 body {
@@ -100,7 +111,7 @@ button {
 }
 
 .about-img-wrapper img {
-  width: 75%;
+  width: 100%;
   border-radius: 5px;
 }
 
@@ -229,6 +240,7 @@ button {
 
 /* CERTIFICATION PROCESS */
 .certification-process-wrapper {
+  height:  40vh;
   width: 30%;
   margin: 10em auto;
   background-color: #aec7fe;
