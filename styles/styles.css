@@ -239,6 +239,7 @@ button {
 .parent-child-section {
   text-align: center;
   padding: 10em 5em;
+  border: 8px solid palevioletred
 }
 
 .steps-card {
@@ -247,6 +248,7 @@ button {
   background-color: #f1f1f8;
   padding: 2em;
   border-radius: 10px;
+  border-width: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -265,6 +267,8 @@ button {
   width: 80%;
   margin: 5em auto;
   flex-wrap: wrap;
+  border: 2px solid black;
+
 }
 
 /* CERTIFICATION PROCESS */
@@ -275,6 +279,9 @@ button {
   padding: 5em;
   opacity: 0.8;
   border-radius: 10px;
+  border-style: double;
+  border-color: lightcoral;
+  border-width: 18px;
 }
 
 .certification-process-wrapper li {
