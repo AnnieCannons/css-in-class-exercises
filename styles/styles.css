@@ -5,6 +5,7 @@ h1{color: black}
 .dev-practice {color: green;}
 .red-text {color: red;}
 .dev-experiment {color:fuchsia}
+.gallery-wrapper {color: forestgreen}
 
 body {
   margin: 0;
@@ -232,6 +233,7 @@ button {
   padding: 5em;
   opacity: 0.8;
   border-radius: 10px;
+  height: 40vh;
 }
 
 .certification-process-wrapper li {
