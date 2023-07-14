@@ -263,6 +263,7 @@ button {
 .left-content-box p {
   font-size: 1.5em;
   margin-top: 0px;
+  border: 2px dotted red;
 }
 
 .right-content-box a {
@@ -296,6 +297,7 @@ button {
   width: 80%;
   margin: 5em auto;
   flex-wrap: wrap;
+  border: 5px dotted black;
 }
 
 /* CERTIFICATION PROCESS */
@@ -307,6 +309,10 @@ button {
   opacity: 0.8;
   border-radius: 10px;
   height: 40vh;
+  border-top: 2px double red;
+  border-bottom: 3px dashed blue;
+  border-left: 5px outset white;
+  border-right: 5px inset yellow;
 }
 
 .certification-process-wrapper li {
@@ -317,6 +323,7 @@ button {
 .certification-process-wrapper ol {
   font-size: 1.2em;
   margin-top: 2em;
+  border: 3px solid green;
 }
 
 /* FOOTER */
