@@ -14,6 +14,7 @@ h1 {
 
 h1, h2, h3, h4, h5, h6, h7 {
   font-family:'Times New Roman';
+
 }
 
 .gallery-section h1 {
@@ -25,7 +26,7 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   color: darkslategray;
 }
 
@@ -170,8 +171,8 @@ button {
 }
 
 .section-header {
-  font-size: 2em;
-  text-transform: uppercase;
+  font-size: 3em;
+  text-transform:lowercase;
   text-align: center;
   padding-top: 1em;
   margin-top: 0px;
@@ -185,7 +186,8 @@ button {
 }
 
 .awards-section-text {
-  text-align: center;
+  text-align:right;
+  font-size: 4.5em;
   
 }
 
@@ -233,6 +235,9 @@ button {
 
 .right-content-box a {
   text-decoration: underline;
+  font-size: x-large;
+  font-style: oblique;
+  color:#054d80
 }
 
 /* STEPS SECTION */
@@ -256,7 +261,8 @@ button {
 }
 
 .steps-card h1 {
-  font-size: 1.5em;
+  font-size: 3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border: 24px solid green;
 
 }
@@ -285,12 +291,17 @@ button {
 }
 
 .certification-process-wrapper li {
-  font-size: 1.2em;
+  font-size: 3.5em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:palevioletred;
   margin-top: 1em;
 }
 
 .certification-process-wrapper ol {
   font-size: 1.2em;
+  font-style: oblique;
+  text-decoration: underline;
+  color:aquamarine;
   margin-top: 2em;
 }
 
