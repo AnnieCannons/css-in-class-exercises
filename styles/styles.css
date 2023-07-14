@@ -1,18 +1,21 @@
 /* FOR CSS MODULE
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
+.certification-list {
+  font-family: 'Fasthand', cursive;
+}
 h1 {
   color: purple;
-  border: 5px solid red;
+  border: 5px solid rgb(19, 168, 126);
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Times New Roman', Times, serif;
-  border: 5px solid red;
+  font-family: cursive;
+  border: 5px solid rgb(187, 0, 255);
 }
 
 .gallery-section {
   color:aqua;
-  border: 5px solid red;
+  border: 5px solid rgb(152, 233, 175);
 }
 
 .red-text {
@@ -22,14 +25,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .green-text {
   color: green;
-  border: 5px solid red;
+  border: 5px solid rgb(0, 255, 102);
 }
 
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: darkslategray;
-  border: 5px solid red;
+  border: 5px solid rgb(0, 255, 217);
 }
 
 nav {
@@ -38,7 +41,7 @@ nav {
   height: 80px;
   display: flex;
   align-items: center;
-  border: 5px solid red;
+  border: 5px solid rgb(48, 14, 14);
 }
 
 nav ul {
@@ -47,29 +50,30 @@ nav ul {
   justify-content: flex-end;
   align-items: center;
   margin-right: 2em;
-  border: 5px solid red;
+  border: 5px solid rgb(106, 61, 61);
 }
 
 nav ul li {
+  font-family: 'Pangolin', cursive;
   margin-right: 4em;
   list-style: none;
   text-transform: uppercase;
   color: whitesmoke;
   font-weight: bolder;
-  border: 5px solid red;
+  border: 5px solid rgb(35, 29, 29);
 }
 
 nav img {
   width: 50px;
   margin-left: 2em;
   border-radius: 100%;
-  border: 5px solid red;
+  border: 5px solid rgb(79, 158, 155);
 }
 
 a {
   color: inherit;
   text-decoration: none;
-  border: 5px solid red;
+  border: 5px solid rgb(22, 195, 195);
 }
 
 .section {
@@ -80,18 +84,18 @@ a {
 
 .headers-section {
   text-align: center;
-  border: 5px solid red;
+  border: 5px solid rgb(183, 0, 255);
 }
 
 .hero-section,
 .parent-child-section {
   background-image: linear-gradient(to bottom right, aliceblue, #01ffff);
-  border: 5px solid red;
+  border: 5px solid rgb(63, 22, 213);
 }
 
 .about-section {
   background-image: linear-gradient(to bottom right, aliceblue, lightpink);
-  border: 5px solid red;
+  border: 5px solid rgb(6, 47, 141);
 }
 
 .hero-wrapper {
@@ -100,18 +104,18 @@ a {
   display: flex;
   padding: 5em;
   justify-content: space-between;
-  border: 5px solid red;
+  border: 5px solid rgb(195, 227, 17);
 }
 
 .hero-header {
   padding-top: 2em;
   margin-top: 0px;
-  border: 5px solid red;
+  border: 5px solid rgb(64, 255, 0);
 }
 
 .text-wrapper {
   width: 50%;
-  border: 5px solid red;
+  border: 5px solid rgb(163, 140, 140);
 }
 
 .form-wrapper {
@@ -122,23 +126,24 @@ a {
 }
 
 button {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   border: none;
   padding: 1em 2em;
   border-radius: 5px;
   background-color: white;
   text-transform: uppercase;
-  border: 5px solid red;
+  border: 5px solid rgb(64, 58, 107);
 }
 
 .about-img-wrapper img {
   width: 100%;
   border-radius: 5px;
-  border: 5px solid red;
+  border: 5px solid rgb(192, 65, 143);
 }
 
 .about-img-wrapper {
   width: 50%;
-  border: 5px solid red;
+  border: 5px solid rgb(0, 255, 30);
 }
 
 .about-wrapper {
@@ -154,7 +159,7 @@ button {
   border-radius: 5px;
   max-height: 200px;
   margin: 0.5rem;
-  border: 5px solid red;
+  border: 27px solid red;
 }
 
 .images-wrapper {
@@ -164,13 +169,13 @@ button {
   padding: 2em 4em;
   width: 80%;
   margin: 1.5em auto;
-  border: 5px solid red;
+  border: 23px solid rgb(24, 24, 24);
 }
 
 .gallery-text-wrapper {
   text-align: center;
   margin-top: 5em;
-  border: 5px solid red;
+  border: 9px solid rgb(187, 31, 31);
 }
 
 .section-header {
@@ -180,18 +185,19 @@ button {
   padding-top: 1em;
   margin-top: 0px;
   font-weight: bolder;
-  border: 5px solid red;
+  border: 5px solid rgb(191, 164, 11);
 }
 
 .awards-section {
   background-image: linear-gradient(to bottom right, aliceblue, lightpink);
   height: 800px;
-  border: 5px solid red;
+  border: 11px solid rgb(0, 17, 255);
 }
 
 .awards-section-text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
-  border: 5px solid red;
+  border: 5px solid rgb(0, 162, 255);
 }
 
 .flex-wrapper {
@@ -200,7 +206,7 @@ button {
   width: 80%;
   margin: 0 auto;
   padding: 2em 4em;
-  border: 5px solid red;
+  border: 17px solid rgb(16, 105, 43);
 }
 
 .awards-section div {
@@ -215,7 +221,7 @@ button {
   top: 150px;
   right: 75px;
   border-radius: 10px;
-  border: 5px solid red;
+  border: 35px solid rgb(20, 8, 65);
 }
 
 .left-content-box {
@@ -225,24 +231,24 @@ button {
   border-radius: 10px;
   position: relative;
   left: 100px;
-  border: 5px solid red;
+  border: 12px solid rgb(124, 17, 148);
 }
 
 .left-content-box li {
   margin-top: 1em;
-  border: 5px solid red;
+  border: 15px solid rgb(13, 108, 121);
 
 }
 
 .left-content-box p {
   font-size: 1.5em;
   margin-top: 0px;
-  border: 5px solid red;
+  border: 15px solid rgb(53, 96, 175);
 }
 
 .right-content-box a {
   text-decoration: underline;
-  border: 5px solid red;
+  border: 5px solid rgb(125, 5, 111);
 }
 
 /* STEPS SECTION */
@@ -253,6 +259,7 @@ button {
 }
 
 .steps-card {
+  font-family: 'VT323', monospace;
   width: 150px;
   text-align: center;
   background-color: #f1f1f8;
