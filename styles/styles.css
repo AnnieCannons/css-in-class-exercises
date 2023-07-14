@@ -1,11 +1,19 @@
 /* FOR CSS MODULE
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
-h1{color: black}
+h1{color: black;}
 .dev-practice {color: green;}
 .red-text {color: red;}
 .dev-experiment {color:fuchsia}
 .gallery-wrapper {color: forestgreen}
+.gallery-text {font-size: 50px;
+  border: 1px solid orange}
+.images-wrapper {border: 2px solid lightcoral}
+.img-1 {border: 2px solid black}
+.gallery-heading {font-size: 55px; font-family: cursive; line-height: 30%}
+.hero-text {font-family: 'Courier New';
+color: cornflowerblue}
+.dinosaur-text {color:aquamarine}
 
 body {
   margin: 0;
@@ -19,6 +27,8 @@ nav {
   height: 80px;
   display: flex;
   align-items: center;
+  border: 4px dotted yellow;
+
 }
 
 nav ul {
@@ -27,6 +37,7 @@ nav ul {
   justify-content: flex-end;
   align-items: center;
   margin-right: 2em;
+  border: 6px solid aquamarine;
 }
 
 nav ul li {
@@ -35,22 +46,28 @@ nav ul li {
   text-transform: uppercase;
   color: whitesmoke;
   font-weight: bolder;
+  border: 2px dashed olivedrab;
+  font-family: cursive;
 }
 
 nav img {
   width: 50px;
   margin-left: 2em;
   border-radius: 100%;
+  border: 1px groove fuchsia
 }
+
 
 a {
   color: inherit;
   text-decoration: none;
+  border: 2px solid darkblue
 }
 
 .section {
   margin-top: 0px;
   padding: 3em;
+  border: 4px dotted lime
 }
 
 .headers-section {
@@ -60,10 +77,12 @@ a {
 .hero-section,
 .parent-child-section {
   background-image: linear-gradient(to bottom right, aliceblue, #01ffff);
+  border: 4px solid indigo
 }
 
 .about-section {
 background-image: linear-gradient(to bottom right, aliceblue, lightpink);
+
 }
 
 .hero-wrapper {
@@ -87,10 +106,11 @@ background-image: linear-gradient(to bottom right, aliceblue, lightpink);
   padding: 2em;
   background-color: white;
   border-radius: 10px;
+  border: 2px solid darkcyan
 }
 
 button {
-  border: none;
+  border: none
   padding: 1em 2em;
   border-radius: 5px;
   background-color: white;
@@ -146,6 +166,9 @@ button {
 .awards-section {
   background-image: linear-gradient(to bottom right, aliceblue, lightpink);
   height: 800px;
+  text-align: center;
+  text-transform: lowercase;
+  text-shadow: 1px 1px 1px blue;
 }
 
 .awards-section-text {
@@ -211,10 +234,12 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 2px solid salmon
 }
 
 .steps-card h1 {
   font-size: 1.5em;
+  border: 1px dashed brown
 }
 
 .steps-wrapper {
@@ -223,6 +248,7 @@ button {
   width: 80%;
   margin: 5em auto;
   flex-wrap: wrap;
+  border: 6px solid teal
 }
 
 /* CERTIFICATION PROCESS */
@@ -234,28 +260,33 @@ button {
   opacity: 0.8;
   border-radius: 10px;
   height: 40vh;
+  border: 10px dotted red
 }
 
 .certification-process-wrapper li {
   font-size: 1.2em;
   margin-top: 1em;
+border: 1px solid darkgoldenrod
 }
 
 .certification-process-wrapper ol {
   font-size: 1.2em;
   margin-top: 2em;
+  border: 3px dashed green
 }
 
 /* FOOTER */
 .footer-section {
   background-color: #f1f1f8;
   padding: 2em;
+  border: 2px solid tomato
 }
 
 .buttons-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border: 1px solid powderblue
 }
 img.photo-change {width: 100px;}
 
