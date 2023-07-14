@@ -351,36 +351,69 @@ button {
 
 /* CERTIFICATION PROCESS */
 .certification-process-wrapper {
-  width: 30%;
+  width: 40%;
   margin: 10em auto;
-  background-color: #aec7fe;
+  background-image:repeating-linear-gradient(to top, black, rgb(138, 138, 138), white);
   padding: 5em;
   opacity: 0.8;
-  border-radius: 10%;
-  height: 40vh;
-  border-top: 15px outset  red;
-  border-bottom: 10px inset blue;
-  border-left: 15px outset white;
-  border-right: 10px inset yellow;
+  border-radius:50%;
+  height: 60vh;
+  border-top:inset  rgba(255, 0, 0, 0.415);
+  border-bottom: inset rgba(0, 0, 255, 0.463);
+  border-left: inset rgba(255, 255, 255, 0.582);
+  border-right: inset rgba(255, 255, 0, 0.384);
 }
 
 .certification-process-wrapper li {
   font-size: 1.2em;
   margin-top: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  border: dotted white;;
 }
 
+.c-section-header { text-transform: uppercase;
+  background-image: linear-gradient(
+    -100deg,
+    #ff7e34 0%,
+    #ff00b3 29%,
+    #e013ff 67%,
+    #ff0000 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 20% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size:2em;
+  letter-spacing: .7em;
+  height:fit-content;
+  width:fit-content;
+  font-family:"Montserrat", sans-serif;
+  text-align:left;
+  border: dotted;
+  border-width: .2em;
+  margin-top: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
 .certification-process-wrapper ol {
   font-size: 1em;
-  margin-top: 2em;
-  text-align: center;
+  margin-top: 3em;
+  text-align: right;
+
 }
 
 .animated-character {  text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
+    #c5ff34 0%,
+    #00ffb3 29%,
+    #13d4ff 67%,
     #fff800 100%
   );
   background-size: auto auto;
@@ -388,7 +421,7 @@ button {
   background-size: 20% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
