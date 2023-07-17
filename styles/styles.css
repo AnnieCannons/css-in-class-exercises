@@ -1,10 +1,18 @@
 /* FOR CSS MODULE
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
+.green-text{color: green;}
+
+h1{color: purple;
+}
+
+.red-text{ color: red;}
+
+.img-width{width: 100px;}
 
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family:'Times New Roman', Times, serif;
   color: darkslategray;
 }
 
@@ -54,10 +62,10 @@ a {
 
 .hero-section,
 .parent-child-section {
-  background-image: linear-gradient(to bottom right, aliceblue, #01ffff);
+  background-image: linear-gradient(to bottom right, aliceblue, #ff0101); border: 60px solid yellow
 }
 
-.about-section {
+.about-section {border:60px solid purple;
   background-image: linear-gradient(to bottom right, aliceblue, lightpink);
 }
 
@@ -66,10 +74,10 @@ a {
   margin: 0 auto;
   display: flex;
   padding: 5em;
-  justify-content: space-between;
+  justify-content: space-between;border:50px solid pink ;
 }
 
-.hero-header {
+.hero-header {border: 20px solid orange;
   padding-top: 2em;
   margin-top: 0px;
 }
@@ -108,7 +116,7 @@ button {
   margin: 0 auto;
 }
 
-.gallery-section img {
+.gallery-section img {border
   width: 300px;
   border-radius: 5px;
   max-height: 200px;
