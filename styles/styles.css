@@ -1,11 +1,17 @@
 /* FOR CSS MODULE
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
-h1{color: blue;}
+.green-text{color: green;}
+
+h1{color: purple;}
+
 .red-text{ color: red;}
+
+.img-width{width: 100px;}
+
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family:'Times New Roman', Times, serif;
   color: darkslategray;
 }
 
