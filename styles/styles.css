@@ -2,6 +2,31 @@
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+font-family: 'Caprasimo', cursive;
+
+h1 {
+  color: rgb(63, 51, 153);
+}
+.red-text {
+  color: red;
+}
+
+.green-text {
+  color: green;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Cap";
+  font-size: 4ex;
+}
+
+.dinosaurs-text {
+  color: chartreuse;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -11,7 +36,7 @@ body {
 nav {
   background-color: #054d80;
   margin: 0;
-  height: 80px;
+  height: 100px;
   display: flex;
   align-items: center;
 }
@@ -30,10 +55,11 @@ nav ul li {
   text-transform: uppercase;
   color: whitesmoke;
   font-weight: bolder;
+  .GO FUND DINOSAURS FOR COLIN-TEXT {color: chartreuse;}
 }
 
 nav img {
-  width: 50px;
+  width: 5%;
   margin-left: 2em;
   border-radius: 100%;
 }
@@ -93,7 +119,7 @@ button {
 }
 
 .about-img-wrapper img {
-  width: 75%;
+  width: 100px;
   border-radius: 5px;
 }
 
@@ -145,6 +171,8 @@ button {
 
 .awards-section-text {
   text-align: center;
+  border-color: rgb(128, 255, 0);
+  border-radius: 20%;
 }
 
 .flex-wrapper {
