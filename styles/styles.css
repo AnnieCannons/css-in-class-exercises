@@ -2,6 +2,53 @@
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
 
+h1 { color: black;}
+h2 { color: red;}
+h3 { color:#01ffff}
+h4 { color:brown;}
+h5 { color: yellow;}
+
+.dev-practice { 
+  color: green;
+}
+
+.red-text {
+  color: darkred;
+}
+
+.dev-experiment {
+  color: fuchsia;
+}
+
+.gallery-wrapper {
+  color: forestgreen;
+}
+
+.gallary-text {
+  font-size: 50px;
+border: 1px solid orange
+}
+
+.images-wrapper {
+  border: 2px solid lightcoral;
+}
+
+.img-1 { 
+  border: 2px solid black;
+}
+
+.galary-heading {
+  font-size: 55px; font-family: cursive;line-height: 30%;
+}
+.hero-text {
+  font-family: 'courier New';
+color: cornflowerblue;
+}
+
+.dinosaur-text {
+  color: aquamarine;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -14,6 +61,7 @@ nav {
   height: 80px;
   display: flex;
   align-items: center;
+  border: 4px dotted black;
 }
 
 nav ul {
@@ -22,6 +70,7 @@ nav ul {
   justify-content: flex-end;
   align-items: center;
   margin-right: 2em;
+  border: 6px solid darkred;
 }
 
 nav ul li {
@@ -41,6 +90,10 @@ nav img {
 a {
   color: inherit;
   text-decoration: none;
+}
+.list-header a {
+   text-decoration: underline;
+   border: 2px solid black;
 }
 
 .section {
@@ -251,3 +304,6 @@ button {
   justify-content: space-around;
   align-items: center;
 }
+img.photo-change {width: 100px;}
+h1 {color: orange;}
+
