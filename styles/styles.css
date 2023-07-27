@@ -2,10 +2,67 @@
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
 
+h1, h2, h3, h4, h5, h6 { font-family:'Times New Roman', Times, serif 
+}
+
+.nav-list {
+  border: 5px dashed yellow;
+}
+
+.h1bor {
+  background-color: peachpuff;
+  border: 10px outset;
+  border-color:  violet yellow silver  blue;
+  text-decoration: solid underline purple 5px;
+}
+
+.h2-bor {
+  border:inset;
+  background-color: pink;
+  border-width: 5px;
+  border-radius: 10px;
+  border-radius: 100%;
+  font-size: 3em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline overline dotted red;
+}
+
+
+.h3-bor {
+  border: 6px outset green;
+  border-radius: 10px;
+  padding: 3px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h4-bor {
+  border: 4px dotted  red;
+  color: white;
+  font-size: 3em;
+}
+
+.h5-bor {
+  border: 5px double blue;
+  color: white;
+}
+
+h1 { 
+  color: red;
+}
+.red-text{
+  color: red;;
+}
+
+h6 { 
+  color: white;
+  text-transform: capitalize
+}
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   color: darkslategray;
+  background-color: black;
 }
 
 nav {
@@ -13,28 +70,35 @@ nav {
   margin: 0;
   height: 80px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 nav ul {
+  width: 50%;
+  height: 20px;
   display: flex;
-  width: 100%;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  margin-right: 2em;
+}
+
+.headers-section { color:rgb(0, 0, 0);
+
 }
 
 nav ul li {
-  margin-right: 4em;
+  width: 9em;
   list-style: none;
   text-transform: uppercase;
   color: whitesmoke;
   font-weight: bolder;
 }
 
+#nav-home { color: rgb(255, 255, 255); }
+
 nav img {
   width: 50px;
-  margin-left: 2em;
+  margin-left: 5em;
   border-radius: 100%;
 }
 
@@ -53,10 +117,23 @@ a {
 }
 
 .hero-section,
+
 .parent-child-section {
   background-image: linear-gradient(to bottom right, aliceblue, #01ffff);
 }
 
+.form-wrapper {
+  padding: 2em;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px dashed darkblue;
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+}
 .about-section {
   background-image: linear-gradient(to bottom right, aliceblue, lightpink);
 }
@@ -65,54 +142,91 @@ a {
   width: 60%;
   margin: 0 auto;
   display: flex;
-  padding: 5em;
+  padding: 4em;
   justify-content: space-between;
+  background-image: linear-gradient(white, black, white);
+  border: dashed blue;
 }
 
 .hero-header {
   padding-top: 2em;
   margin-top: 0px;
 }
-
-.text-wrapper {
-  width: 50%;
+.hero-h {
+font-family: "Montserrat", sans-serif;
+border: solid white;
+border-radius: 10px;
+background-image: linear-gradient(to left, peachpuff, rgb(71, 198, 249), green, rgb(20, 113, 220), black, rgb(173, 173, 9), rgb(116, 7, 7));
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+.h-multicolortext { 
+border: solid white;
+border-radius: 5%;
+background-image: linear-gradient(to left, violet, rgb(165, 74, 230), rgb(214, 158, 74), rgb(212, 0, 255), rgb(218, 93, 130), orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size: 1.5em;
 }
 
-.form-wrapper {
-  padding: 2em;
-  background-color: white;
-  border-radius: 10px;
+.text-wrapper {
+background-image: linear-gradient(to right, white, silver, white);
+text-align: center;
+margin-top: 15em;
+margin-right: 2em;
+margin-bottom: 13em;
+border-radius: 5%;
 }
 
 button {
-  border: none;
-  padding: 1em 2em;
-  border-radius: 5px;
+  border: double;
+  padding: 1em 1em;
+  border-radius: 15px;
   background-color: white;
   text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: green;
 }
 
-.about-img-wrapper img {
-  width: 75%;
-  border-radius: 5px;
+.about-img-wrapper img { 
+  width: 300px;
+  border-radius: 100%;
+  border: 10px double blue;
 }
 
 .about-img-wrapper {
-  width: 50%;
+  width: 40%;
 }
 
 .about-wrapper {
   display: flex;
-  padding: 8em 4em;
-  width: 80%;
+  padding: 5em 4em;
+  width: 100%;
   margin: 0 auto;
+  
 }
 
 .gallery-section img {
   width: 300px;
   border-radius: 5px;
+  border: 5px dotted red;
   max-height: 200px;
   margin: 0.5rem;
+  
+}
+
+.multicolortext {
+  background-image: linear-gradient(to left, violet, indigo, green, blue, white, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .images-wrapper {
@@ -122,11 +236,13 @@ button {
   padding: 2em 4em;
   width: 80%;
   margin: 1.5em auto;
+  background-image: linear-gradient(to bottom, black, grey);
 }
 
 .gallery-text-wrapper {
   text-align: center;
   margin-top: 5em;
+  background-color: black;
 }
 
 .section-header {
@@ -136,11 +252,15 @@ button {
   padding-top: 1em;
   margin-top: 0px;
   font-weight: bolder;
+  
 }
 
 .awards-section {
-  background-image: linear-gradient(to bottom right, aliceblue, lightpink);
+  background-image: linear-gradient(to bottom right, aliceblue, lightpink, blue, green, red);
   height: 800px;
+  border: 20px inset;
+  border-color: silver black silver black;
+  border-width: 25px 10px 25px 10px;
 }
 
 .awards-section-text {
@@ -165,11 +285,11 @@ button {
   position: relative;
   top: 150px;
   right: 75px;
-  border-radius: 10px;
+  border-radius: 100%;
 }
 
 .left-content-box {
-  background-color: #e9f8ff;
+  background-image: linear-gradient(to right top, black, grey);
   font-size: 1em;
   padding: 2em;
   border-radius: 10px;
@@ -185,6 +305,7 @@ button {
 .left-content-box p {
   font-size: 1.5em;
   margin-top: 0px;
+  border: 2px dotted red;
 }
 
 .right-content-box a {
@@ -200,7 +321,7 @@ button {
 .steps-card {
   width: 150px;
   text-align: center;
-  background-color: #f1f1f8;
+  background-image: linear-gradient(to bottom left, white, yellow, white, red);
   padding: 2em;
   border-radius: 10px;
   display: flex;
@@ -218,28 +339,93 @@ button {
   width: 80%;
   margin: 5em auto;
   flex-wrap: wrap;
+  border: solid;
+  border-start-start-radius: 100%;
+  border-end-end-radius: 100%;
+  border-start-end-radius: 100%;
+  border-end-start-radius: 100%;
+  border-inline-width: 80px;
+  border-block-color: red white;
+  
 }
 
 /* CERTIFICATION PROCESS */
 .certification-process-wrapper {
-  width: 30%;
+  width: 40%;
   margin: 10em auto;
-  background-color: #aec7fe;
+  background-image:repeating-linear-gradient(to top, black, rgb(138, 138, 138), white);
   padding: 5em;
   opacity: 0.8;
-  border-radius: 10px;
+  border-radius:50%;
+  height: 60vh;
+  border-top:inset  rgba(255, 0, 0, 0.415);
+  border-bottom: inset rgba(0, 0, 255, 0.463);
+  border-left: inset rgba(255, 255, 255, 0.582);
+  border-right: inset rgba(255, 255, 0, 0.384);
 }
 
 .certification-process-wrapper li {
   font-size: 1.2em;
   margin-top: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  border: dotted white;;
 }
 
+.c-section-header { text-transform: uppercase;
+  background-image: linear-gradient(
+    -100deg,
+    #ff7e34 0%,
+    #ff00b3 29%,
+    #e013ff 67%,
+    #ff0000 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 20% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size:2em;
+  letter-spacing: .7em;
+  height:fit-content;
+  width:fit-content;
+  font-family:"Montserrat", sans-serif;
+  text-align:left;
+  border: dotted;
+  border-width: .2em;
+  margin-top: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
 .certification-process-wrapper ol {
-  font-size: 1.2em;
-  margin-top: 2em;
+  font-size: 1em;
+  margin-top: 3em;
+  text-align: right;
+
 }
 
+.animated-character {  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #c5ff34 0%,
+    #00ffb3 29%,
+    #13d4ff 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 20% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
 /* FOOTER */
 .footer-section {
   background-color: #f1f1f8;
