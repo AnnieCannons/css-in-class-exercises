@@ -1,10 +1,32 @@
 /* FOR CSS MODULE
   Add border style rules that are at least 5 pixels and a color of your choice.
 */
+h1 {
+  color:orange;
+}
+.red-text {
+  color:red;
+}
 
+.weird-paragraph {
+  color:green;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+  font-family:'Times New Roman';
+
+}
+
+.gallery-section h1 {
+  color:darkolivegreen;
+}
+
+.gallery-text-wrapper {
+  color:purple;
+}
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   color: darkslategray;
 }
 
@@ -14,6 +36,7 @@ nav {
   height: 80px;
   display: flex;
   align-items: center;
+  border: 2px solid gold;
 }
 
 nav ul {
@@ -22,6 +45,9 @@ nav ul {
   justify-content: flex-end;
   align-items: center;
   margin-right: 2em;
+  text-decoration: wavy;
+  border: 4px dotted aquamarine
+
 }
 
 nav ul li {
@@ -30,12 +56,17 @@ nav ul li {
   text-transform: uppercase;
   color: whitesmoke;
   font-weight: bolder;
+  border: 8px solid darkmagenta;
+
 }
 
 nav img {
   width: 50px;
   margin-left: 2em;
   border-radius: 100%;
+  border-width: 100em;
+  border: 10px dotted deeppink;
+
 }
 
 a {
@@ -59,6 +90,9 @@ a {
 
 .about-section {
   background-image: linear-gradient(to bottom right, aliceblue, lightpink);
+  border-style: groove;
+  border: 50px dashed darkgreen;
+
 }
 
 .hero-wrapper {
@@ -72,6 +106,7 @@ a {
 .hero-header {
   padding-top: 2em;
   margin-top: 0px;
+
 }
 
 .text-wrapper {
@@ -82,10 +117,12 @@ a {
   padding: 2em;
   background-color: white;
   border-radius: 10px;
+  border: 12px solid darkred;
+
 }
 
 button {
-  border: none;
+  border: 5px solid darkorange;
   padding: 1em 2em;
   border-radius: 5px;
   background-color: white;
@@ -106,6 +143,8 @@ button {
   padding: 8em 4em;
   width: 80%;
   margin: 0 auto;
+  border: 10px dotted purple;
+  
 }
 
 .gallery-section img {
@@ -113,6 +152,7 @@ button {
   border-radius: 5px;
   max-height: 200px;
   margin: 0.5rem;
+
 }
 
 .images-wrapper {
@@ -122,6 +162,7 @@ button {
   padding: 2em 4em;
   width: 80%;
   margin: 1.5em auto;
+  
 }
 
 .gallery-text-wrapper {
@@ -130,12 +171,13 @@ button {
 }
 
 .section-header {
-  font-size: 2em;
-  text-transform: uppercase;
+  font-size: 3em;
+  text-transform:lowercase;
   text-align: center;
   padding-top: 1em;
   margin-top: 0px;
   font-weight: bolder;
+
 }
 
 .awards-section {
@@ -144,7 +186,9 @@ button {
 }
 
 .awards-section-text {
-  text-align: center;
+  text-align:right;
+  font-size: 4.5em;
+  
 }
 
 .flex-wrapper {
@@ -157,6 +201,7 @@ button {
 
 .awards-section div {
   width: 80%;
+
 }
 
 .right-content-box img {
@@ -166,6 +211,7 @@ button {
   top: 150px;
   right: 75px;
   border-radius: 10px;
+
 }
 
 .left-content-box {
@@ -189,12 +235,16 @@ button {
 
 .right-content-box a {
   text-decoration: underline;
+  font-size: x-large;
+  font-style: oblique;
+  color:#054d80
 }
 
 /* STEPS SECTION */
 .parent-child-section {
   text-align: center;
   padding: 10em 5em;
+  border: 8px solid palevioletred
 }
 
 .steps-card {
@@ -203,13 +253,18 @@ button {
   background-color: #f1f1f8;
   padding: 2em;
   border-radius: 10px;
+  border-width: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .steps-card h1 {
-  font-size: 1.5em;
+  font-size: 3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 24px solid green;
+
 }
 
 .steps-wrapper {
@@ -218,25 +273,35 @@ button {
   width: 80%;
   margin: 5em auto;
   flex-wrap: wrap;
+  border: 2px solid black;
+
 }
 
 /* CERTIFICATION PROCESS */
 .certification-process-wrapper {
-  width: 30%;
+  width: 40%;
   margin: 10em auto;
   background-color: #aec7fe;
   padding: 5em;
   opacity: 0.8;
   border-radius: 10px;
+  border-style: double;
+  border-color: lightcoral;
+  border-width: 18px;
 }
 
 .certification-process-wrapper li {
-  font-size: 1.2em;
+  font-size: 3.5em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:palevioletred;
   margin-top: 1em;
 }
 
 .certification-process-wrapper ol {
   font-size: 1.2em;
+  font-style: oblique;
+  text-decoration: underline;
+  color:aquamarine;
   margin-top: 2em;
 }
 
