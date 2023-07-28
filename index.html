@@ -9,6 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Practice</title>
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <style>
+      h1 {
+        font-family: 'UnifrakturMaguntia', cursive;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -21,7 +29,7 @@
       </ul>
     </nav>
     <section class="headers-section">
-      <h1><a href="https://www.github.com/abbreviatedman" target="_blank">This</a> is an H1.</h1>
+      <h1 class="red-text"><a href="https://www.github.com/abbreviatedman" target="_blank">This</a> is an H1.</h1>
       <h2><a href="https://www.github.com/abbreviatedman">This</a> is an H2.</h2>
       <h3><a href="https://www.github.com/abbreviatedman">This</a> is an H3.</h3>
       <h4><a href="https://www.google.com">This is an H4.</a></h4>
@@ -32,7 +40,7 @@
       <div class="hero-wrapper">
         <div class="text-wrapper">
           <h1>Writing inclusive software for the next generation</h1>
-          <p>Welcome to the world of HTML! Remember to have fun while learning, embrace the bugs, and make sure to break things.</p>
+          <p style="color:green">Welcome to the world of HTML! Remember to have fun while learning, embrace the bugs, and make sure to break things.</p>
           <a href="https://www.anniecannons.org"><button>Learn More</button></a>
         </div>
         <div class="form-wrapper">
@@ -59,6 +67,7 @@
           <img
             src="./assets/software-graphic.png"
             alt="hero image"
+            width="100"
           />
         </div>
         <div class="about-text-wrapper">
@@ -73,7 +82,7 @@
     </section>
     <section class="gallery-section">
       <div class="gallery-text-wrapper">
-        <h1>Gallery</h1>
+        <h1 class="gallery-border">Gallery</h1>
         <p>These are the most beautiful photos in the world, all made possible by our amazing engineers.</p>
       </div>
       <div class="images-wrapper">
