@@ -9,6 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Practice</title>
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav>
@@ -32,11 +35,11 @@
       <div class="hero-wrapper">
         <div class="text-wrapper">
           <h1>Writing inclusive software for the next generation</h1>
-          <p>Welcome to the world of HTML! Remember to have fun while learning, embrace the bugs, and make sure to break things.</p>
+          <p class="green-text">Welcome to the world of HTML! Remember to have fun while learning, embrace the bugs, and make sure to break things.</p>
           <a href="https://www.anniecannons.org"><button>Learn More</button></a>
         </div>
         <div class="form-wrapper">
-          <h1>Request a Quote</h1>
+          <h1 class="red-text">Request a Quote</h1>
           <form>
             <input type="text" id="first-name" name="first-name" required placeholder="First Name">
             <input type="text" id="last-name" name="last-name" required placeholder="Last Name">
@@ -56,7 +59,7 @@
       <!-- <h1 class="section-header">About Us</h1> -->
       <div class="about-wrapper">
         <div class="about-img-wrapper">
-          <img
+          <img class="img-width"
             src="./assets/software-graphic.png"
             alt="hero image"
           />
@@ -130,7 +133,7 @@
     <section class="section certification-section">
       <div class="certification-process-wrapper">
         <h1 class="section-header">Our Certification Process</h1>
-        <ol>
+        <ol class="certification-list">
           <li>Internal testing</li>
           <li>Beta testing with a small group</li>
           <li>Make changes based on feedback</li>
